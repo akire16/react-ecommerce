@@ -4,7 +4,7 @@ const Navbar = () => {
   const activeStyle = "underline underline-offset-8 text-primary-color";
 
   return (
-    <nav className="flex justify-between items-center fixed z-10 w-full py-5 px-8 text-base font-light">
+    <nav className="flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8 text-base font-light">
       <ul className="flex items-center gap-3">
         <li className="font-semibold text-2xl text-primary-color">
           <NavLink to="/">ShopPlants</NavLink>
@@ -19,18 +19,18 @@ const Navbar = () => {
         </li>
         <li className="hover:text-primary-color">
           <NavLink
-            to="/indoor"
+            to="/plants"
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Indoor
+            Plants
           </NavLink>
         </li>
         <li className="hover:text-primary-color">
           <NavLink
-            to="/outdoor"
+            to="/flowers"
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Outdoor
+            Flowers
           </NavLink>
         </li>
         <li className="hover:text-primary-color">

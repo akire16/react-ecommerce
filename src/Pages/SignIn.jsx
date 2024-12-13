@@ -1,8 +1,10 @@
+import Layout from "../Components/Layout"
+
 function SingIn() {
   return (
-    <div className='bg-violet-100'>
+    <Layout className='bg-violet-100'>
       SingIn
-    </div>
+    </Layout>
   )
 }
 
