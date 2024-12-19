@@ -15,7 +15,7 @@ export const ShoppingCartProvider = ({ children }) => {
   const [productToShow, setProductToShow] = useState({});
 
   //Shopping cart - add products to cart
-  const [cartProducts, setCartProducts] =useState([])
+  const [cartProducts, setCartProducts] = useState([]);
 
   //Checkout Side Menu - Open/close
   const [isCheckoutSideMenuOpen, setIsCheckoutSideMenuOpen] = useState(false);
