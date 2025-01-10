@@ -25,7 +25,8 @@ const CheckoutSideMenu = () => {
 
     context.setOrder([...context.order, orderToAdd]);
     context.setCartProducts([]); // Clear the cart after checkout.
-    context.closeCheckoutSideMenu()
+    context.closeCheckoutSideMenu();
+    context.setSearchByTitle(null)
   };
 
   return (
