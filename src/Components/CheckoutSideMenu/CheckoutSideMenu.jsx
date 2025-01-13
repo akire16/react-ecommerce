@@ -78,7 +78,7 @@ const CheckoutSideMenu = () => {
         </p>
         <Link to="/my-orders/last">
           <button
-            className="bg-primary-color py-3 text-white w-full rounded-lg"
+            className="bg-primary-color opacity-85 py-3 text-white w-full rounded-lg hover:opacity-100"
             onClick={() => handleCheckout()}
           >
             Checkout

@@ -6,7 +6,6 @@ const Banner = () => {
       <img
         className="w-full hover:bg-[#FCC3B4] absolute"
         src="../../../public/pexels-sora-shimazaki-5926462.jpg"
-        alt="Home Banner"
       />
       <h1 className="flex relative w-full h-full bg-[#FCC3B4] bg-opacity-85 justify-center items-center text-white text-8xl font-sans italic">
         Valentine's Day Sales
