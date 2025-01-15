@@ -1,6 +1,8 @@
 # react-ecommerce
 E-commerce with Vite and TailwindCSS
 
+https://akire16.github.io/react-ecommerce/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
