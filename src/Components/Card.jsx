@@ -84,8 +84,8 @@ const Card = (data) => {
         {renderButton(data.data.id)}
       </figure>
       <p className="flex justify-between items-center">
-        <span className="font-semibold">{data.data.title}</span>
-        <span className="text-lg font-bold">${data.data.price}</span>
+        <span>{data.data.title}</span>
+        <span className="text-lg font-bold ml-2">${data.data.price}</span>
       </p>
     </div>
   );
