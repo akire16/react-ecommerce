@@ -1,4 +1,4 @@
-### `react-ecommerce`
+# React Ecommerce
 
 ```md
 # React E-commerce App
