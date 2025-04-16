@@ -1,13 +1,32 @@
-# react-ecommerce
-E-commerce with Vite and TailwindCSS
+### `react-ecommerce`
 
-https://akire16.github.io/react-ecommerce/
+```md
+# React E-commerce App
 
-# React + Vite
+Responsive online store interface built with Vite, React, and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo**: [View App on GitHub Pages](https://akire16.github.io/react-ecommerce/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- Vite
+- React
+- Tailwind CSS
+
+## Features
+- Product listing
+- Add to cart (UI only)
+- Responsive layout
+- Clean modern design
+
+## Purpose
+A practice project to build a modern frontend shopping experience and work with Tailwind CSS.
+
+## Run Locally
+
+```bash
+git clone https://github.com/akire16/react-ecommerce.git
+cd react-ecommerce
+npm install
+npm run dev
