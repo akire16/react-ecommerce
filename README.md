@@ -7,8 +7,6 @@ Responsive online store interface built with Vite, React, and Tailwind CSS.
 
 **Live Demo**: [View App on GitHub Pages](https://akire16.github.io/react-ecommerce/)
 
----
-
 ## Technologies Used
 - Vite
 - React
